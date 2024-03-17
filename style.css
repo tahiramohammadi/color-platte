@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+body{
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    margin:0;
+    background: whitesmoke;
+}
+.box{
+    width:500px;
+    height: 500px;
+    border: 3px solid white;
+    box-shadow: 5px 5px 10px 5px  dimgray;
+    border-radius: 5%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:60px;
+    background: white;
+ 
+}
+.box h1{
+   display: flex;
+   justify-content: center;
+   line-height: 1em; 
+}
+.color-pallete{
+   display: grid;
+   grid-template-columns: auto auto auto;
+    align-items: center;
+    padding: 2em;
+}
+input[type=color]{
+    padding: 1.5em 2em;
+    margin-right:0px;
+}
+select{
+    padding: 1em 1em;
+    margin:1rem;
+}
+button{
+    padding: 1em 0em; 
+    background: green;
+    cursor: pointer;
+    border:0px;
+    border-radius: 3px;
+    color:white;
+}
+.color-contain{
+    display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+    
+}
+.color{
+   cursor: copy; 
+}
+.color-container{
+    width: 90px;
+    height: 230px;
+}
+.color-hex{
+    padding: 0 1em;
+    font-size:15px;
+
+}

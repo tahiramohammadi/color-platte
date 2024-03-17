@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+       <div class="box">
+           <div>
+            <h1>Color Schemes Generator</h1>
+           <div class="color-pallete">
+           <input type="color" id="input-color" />
+           <select id="mode">
+                <option value="analogic">Analogic</option>
+                <option value="monochrome">Monochrome</option>
+                <option value="complement">Complement</option>
+                <option value="triad">Triad</option>
+                <option value="quad">Quad</option>
+                <option value="analogic-complement">Analogic complement</option>
+                <option value="monochrome-dark">Monochrome dark</option>
+                <option value="monochrome-light">Monochrome light</option>
+            </select>
+           <button type="submit" id="btn_color">Get color scheme</button>
+        </div>
+        <main class="color-contain"></main>
+       </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
